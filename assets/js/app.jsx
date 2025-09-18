@@ -225,9 +225,9 @@ function Projects() {
             <ul className="tags">
               <li>Python</li>
               <li>Django / DRF</li>
-              <li>RBAC</li>
+              <li>React + Tailwind</li>
               <li>CI/CD</li>
-              <li>AWS/Heroku</li>
+              <li>Render</li>
             </ul>
             <div className="project-actions">
               <a className="btn small" href="#contact">Discuss</a>
@@ -247,7 +247,7 @@ function Education() {
         <div className="edu-list">
           <div className="edu-item">
             <h3>B.Sc in Chemistry</h3>
-            <p className="meta">Federal University of Agriculture (FUA) Makurdi</p>
+            <p className="meta">Federal University of Agriculture Makurdi</p>
           </div>
           <div className="edu-item">
             <h3>Certifications</h3>
