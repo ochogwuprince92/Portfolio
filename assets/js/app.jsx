@@ -67,8 +67,8 @@ function Hero() {
               }}
             />
           </div>
-          <h1>Building Scalable Backends for Impactful Digital Products</h1>
-          <p className="subtitle">Backend Developer — I design robust APIs, orchestrate services, and ship clean, reliable code. Focused on performance, security, and developer-friendly architectures.</p>
+          <h1>Backend Developer</h1>
+          <p className="subtitle"> I design robust APIs, orchestrate services, and ship clean, reliable code. Focused on performance, security, and developer-friendly architectures.</p>
           <div className="cta-row">
             <a className="btn primary" href="#projects">View Projects</a>
             <a className="btn ghost" href="#contact">Get in Touch</a>
@@ -127,6 +127,8 @@ const skills = [
   { icon: 'fa-solid fa-database', label: 'MySQL' },
   { icon: 'fa-solid fa-cloud-arrow-up', label: 'Render' },
   { icon: 'fa-brands fa-github', label: 'GitHub' },
+  { icon: 'fa-brands fa-Linux', label: 'Linux' },
+  { icon: 'fa-brands fa-Java', label: 'Learning Java' },
   { icon: 'fa-solid fa-puzzle-piece', label: 'Problem‑solving', subtle: true },
   { icon: 'fa-solid fa-people-group', label: 'Teamwork', subtle: true },
   { icon: 'fa-solid fa-comments', label: 'Communication', subtle: true },
