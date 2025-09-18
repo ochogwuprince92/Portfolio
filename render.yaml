@@ -1,0 +1,11 @@
+services:
+  - type: static
+    name: ochogwu-portfolio
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /
+        name: Cache-Control
+        value: no-cache
+
