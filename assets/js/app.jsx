@@ -194,50 +194,67 @@ function Projects() {
       <div className="container">
         <h2>Projects</h2>
         <div className="projects-grid">
-          <article className="project-card">
-            <div className="project-header">
-              <h3>Digital Agricultural Platform</h3>
-              <span className="badge accent">Case Study</span>
-            </div>
-            <p>
-              Designed and built APIs enabling farmers’ marketplace, land and crop tracking, authentication, and secure transactions. Focused on reliable data models, idempotent operations, and observability.
-            </p>
-            <ul className="tags">
-              <li>Python</li>
-              <li>Django / DRF</li>
-              <li>JWT</li>
-              <li>Docker</li>
-              <li>PostgreSQL</li>
-            </ul>
-            <div className="project-actions">
-              <a className="btn small" href="#contact">Discuss</a>
-            </div>
-          </article>
 
+          {/* Job Board Platform */}
           <article className="project-card">
             <div className="project-header">
-              <h3>Bespoke Rental Service</h3>
+              <h3>Job Board Platform</h3>
               <span className="badge accent">Case Study</span>
             </div>
             <p>
-              Built core backend for authentication, booking workflows, secure role‑based access, and resilient payment integrations. Delivered robust API docs and CI/CD for quick iterations.
+              Engineered a role-based job marketplace with listings, applications, and real-time 
+              notifications. Integrated background task processing with Celery, containerized 
+              services for portability, and automated CI/CD pipelines to streamline deployment 
+              workflows.
             </p>
             <ul className="tags">
               <li>Python</li>
               <li>Django / DRF</li>
-              <li>React + Tailwind</li>
+              <li>RBAC</li>
+              <li>JWT/Email AUthentication</li>
+              <li>Redis</li>
+              <li>Celery</li>
+              <li>Docker</li>
               <li>CI/CD</li>
+              <li>PostgreSQL</li>
+              <li>Swagger</li>
               <li>Render</li>
             </ul>
             <div className="project-actions">
               <a className="btn small" href="#contact">Discuss</a>
             </div>
           </article>
+
+          {/* Bespoke Rental Service */}
+          <article className="project-card">
+            <div className="project-header">
+              <h3>Bespoke Rental Service</h3>
+              <span className="badge accent">Case Study</span>
+            </div>
+            <p>
+              Built a scalable platform for tailored rental workflows, including authentication, 
+              booking pipelines, and payment integrations. Adopted a service-oriented approach with 
+              containerization, background task processing, and CI/CD pipelines to support fast, 
+              reliable feature delivery.
+            </p>
+            <ul className="tags">
+              <li>Python</li>
+              <li>Django / DRF</li>
+              <li>RBAC</li>
+              <li>CI/CD</li>
+              <li>AWS/Heroku</li>
+            </ul>
+            <div className="project-actions">
+              <a className="btn small" href="#contact">Discuss</a>
+            </div>
+          </article>
+
         </div>
       </div>
     </Section>
   );
 }
+
 
 function Education() {
   return (
