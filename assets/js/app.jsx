@@ -240,9 +240,38 @@ function Projects() {
             <ul className="tags">
               <li>Python</li>
               <li>Django / DRF</li>
+              <li>Django Template</li>
               <li>RBAC</li>
-              <li>CI/CD</li>
+              <li>JWT</li>
+              <li>Cullinary</li>
+              <li>PostgreSQL</li>
+              <li>Postman</li>
+            </ul>
+            <div className="project-actions">
+              <a className="btn small" href="#contact">Discuss</a>
+            </div>
+          </article>
+
+          {/* Digital Agricultural Platform */}
+          <article className="project-card">
+            <div className="project-header">
+              <h3>Digital Agricultural Platform</h3>
+              <span className="badge accent">Case Study</span>
+            </div>
+            <p>
+              Designed and built a distributed system enabling farmers’ marketplace, crop and land 
+              tracking, and secure transactions. Implemented authentication, idempotent operations, 
+              and observability for reliable workflows across users and transactions.
+            </p>
+            <ul className="tags">
+              <li>Python</li>
+              <li>Django / DRF</li>
+              <li>JWT</li>
+              <li>Email Verification</li>
+              <li>Cullinary</li>
               <li>AWS/Heroku</li>
+              <li>PostgreSQL</li>
+              <li>Postman</li>
             </ul>
             <div className="project-actions">
               <a className="btn small" href="#contact">Discuss</a>
