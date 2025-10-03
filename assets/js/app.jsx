@@ -221,8 +221,16 @@ function Projects() {
               <li>Render</li>
             </ul>
             <div className="project-actions">
-              <a className="btn small" href="#contact">Discuss</a>
-            </div>
+          <a href="https://nexus-backend-4mzn.onrender.com/" target="_blank" className="btn small">
+            View Project
+          </a>
+          <a href="https://www.loom.com/share/8c7c4346569d4367b21bf5064b774840?sid=4ca1f7d6-b14c-4836-bb72-a0bc231a9743" target="_blank" className="btn small">
+            Watch Demo
+          </a>
+          <a className="btn small" href="#contact">
+            Discuss
+          </a>
+          </div>
           </article>
 
           {/* Bespoke Rental Service */}
